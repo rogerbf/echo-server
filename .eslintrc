@@ -23,7 +23,7 @@
     ],
     "indent": [
       "error",
-      2,
+      3,
       {
         "MemberExpression": 1
       }
