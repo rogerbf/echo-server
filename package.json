@@ -14,7 +14,9 @@
   "author": "rogerbf <roger@bergfalk.nu> (http://bergfalk.nu/)",
   "license": "MIT",
   "devDependencies": {
+    "babel-core": "6.25.0",
     "babel-eslint": "7.2.3",
+    "babel-plugin-dynamic-import-node": "1.0.2",
     "babel-plugin-external-helpers": "6.22.0",
     "babel-preset-env": "1.6.0",
     "babel-preset-stage-3": "6.24.1",
@@ -25,8 +27,8 @@
     "eslint-plugin-standard": "3.0.1",
     "nsp": "2.7.0",
     "prettier-standard": "6.0.0",
-    "rollup": "0.45.2",
-    "rollup-plugin-babel": "3.0.1"
+    "rollup": "0.47.2",
+    "rollup-plugin-babel": "2.7.1"
   },
   "module": "./build/echo-server.esm.js",
   "files": [
