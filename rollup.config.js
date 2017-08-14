@@ -16,7 +16,8 @@ export default Object.assign(
     external: [
       ...Object.keys(pkg.dependencies || {}),
       `http`,
-      `net`
+      `net`,
+      `util`
     ]
   }
 )
