@@ -1,7 +1,7 @@
 {
-  "name": "echo-server",
+  "name": "@rogerbf/echo-server",
   "version": "1.0.0",
-  "description": "@rogerbf/echo-server",
+  "description": "create a server that responds with the request object",
   "main": "./build/echo-server.cjs.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -10,7 +10,13 @@
     "lint": "eslint source",
     "format": "prettier-standard \"source/**/*.js\""
   },
-  "keywords": [],
+  "keywords": [
+    "demo",
+    "demonstration",
+    "http",
+    "tcp",
+    "education"
+  ],
   "author": "rogerbf <roger@bergfalk.nu> (http://bergfalk.nu/)",
   "license": "MIT",
   "devDependencies": {
