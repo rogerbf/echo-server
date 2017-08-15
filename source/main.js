@@ -8,14 +8,7 @@ const moduleNames = {
 const defaultHandlers = {
   tcp (socket) {
     console.log(inspect(socket, { colors: true, depth: 1 }))
-    socket.on(
-      `data`,
-      data =>
-        data.toString().toLowerCase().trim() === `exit`
-          ? socket.end()
-          : socket.write(data)
-    )
-    socket.write(`type 'exit' to disconnect\n`)
+    socket.end(inspect(socket))
   },
   http (request, response) {
     console.log(inspect(request, { colors: true, depth: 1 }))
