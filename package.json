@@ -1,7 +1,7 @@
 {
   "name": "echo-server",
   "version": "0.0.1",
-  "description": "",
+  "description": "@rogerbf/echo-server",
   "main": "./build/echo-server.cjs.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
